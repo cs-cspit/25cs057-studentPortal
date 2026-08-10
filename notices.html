@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student ERP - Notices</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4f6fb;
+}
+
+.container{
+display:flex;
+}
+
+.sidebar{
+width:220px;
+height:100vh;
+background:#1e3a8a;
+position:fixed;
+color:white;
+}
+
+.sidebar h2{
+text-align:center;
+padding:20px;
+}
+
+.sidebar ul{
+list-style:none;
+}
+
+.sidebar ul li a{
+display:block;
+padding:15px 25px;
+color:white;
+text-decoration:none;
+}
+
+.sidebar ul li a:hover{
+background:#2563eb;
+}
+
+.main{
+margin-left:220px;
+padding:30px;
+width:100%;
+}
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:25px;
+}
+
+.notice-card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,.15);
+margin-bottom:20px;
+}
+
+.notice-card h2{
+color:#2563eb;
+margin-bottom:10px;
+}
+
+.date{
+color:#777;
+margin-bottom:10px;
+}
+
+.badge{
+display:inline-block;
+background:#ef4444;
+color:white;
+padding:5px 12px;
+border-radius:20px;
+font-size:12px;
+margin-bottom:10px;
+}
+
+.type{
+display:inline-block;
+background:#2563eb;
+color:white;
+padding:5px 12px;
+border-radius:20px;
+font-size:12px;
+margin-left:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="sidebar">
+
+<h2>Student ERP</h2>
+
+<ul>
+
+<li><a href="dashboard.html">Dashboard</a></li>
+<li><a href="profile.html">Profile</a></li>
+<li><a href="attendance.html">Attendance</a></li>
+<li><a href="subjects.html">Subjects</a></li>
+<li><a href="results.html">Results</a></li>
+<li><a href="timetable.html">Timetable</a></li>
+<li><a href="notices.html" style="background:#2563eb;">Notices</a></li>
+<li><a href="settings.html">Settings</a></li>
+
+</ul>
+
+</div>
+
+<div class="main">
+
+<div class="header">
+
+<h1>Latest Notices</h1>
+
+<b>Krupal Parmar | 25CS057</b>
+
+</div>
+
+<div class="notice-card">
+
+<span class="badge">NEW</span>
+<span class="type">Exam</span>
+
+<h2>Mid Semester Examination</h2>
+
+<p class="date">20 July 2026</p>
+
+<p>
+The Mid Semester Examination will begin from 5 August 2026.
+Students are advised to download the timetable from the ERP portal.
+</p>
+
+</div>
+
+<div class="notice-card">
+
+<span class="type">Academic</span>
+
+<h2>Assignment Submission</h2>
+
+<p class="date">18 July 2026</p>
+
+<p>
+Submit all pending assignments before 25 July 2026.
+Late submissions will not be accepted.
+</p>
+
+</div>
+<!-- Notice 3 -->
+
+<div class="notice-card">
+
+<span class="badge">NEW</span>
+<span class="type">Event</span>
+
+<h2>Tech Fest 2026 Registration</h2>
+
+<p class="date">16 July 2026</p>
+
+<p>
+Registration for the Annual Tech Fest has started.
+Interested students can register through the Student ERP Portal before
+30 July 2026.
+</p>
+
+</div>
+
+<!-- Notice 4 -->
+
+<div class="notice-card">
+
+<span class="type">Holiday</span>
+
+<h2>Public Holiday</h2>
+
+<p class="date">15 July 2026</p>
+
+<p>
+The university will remain closed on 29 July 2026 due to a public holiday.
+Regular classes will resume on the next working day.
+</p>
+
+</div>
+
+<!-- Important Instructions -->
+
+<div style="
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,.15);
+margin-top:25px;
+">
+
+<h2 style="color:#2563eb;margin-bottom:15px;">
+
+
+
+</h2>
+
+<ul style="margin-left:20px;line-height:2;">
+
+<li>Check the ERP portal daily for new notices.</li>
+
+<li>Download exam timetables only from the official portal.</li>
+
+<li>Complete assignment submissions before the deadline.</li>
+
+<li>Carry your Student ID during examinations and events.</li>
+
+<li>Contact your faculty advisor if you have any questions.</li>
+
+</ul>
+
+</div>
+
+<footer style="
+margin-top:30px;
+text-align:center;
+padding:20px;
+color:#666;
+">
+
+© 2026 Student ERP Portal | CHARUSAT University
+
+</footer>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

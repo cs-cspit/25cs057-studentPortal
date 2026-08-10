@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Help Center - Student ERP</title>
+
+<style>
+
+/* Basic CSS */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f6fb;
+    color:#333;
+}
+
+/* Header */
+
+.header{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+}
+
+.header h1{
+    margin-bottom:10px;
+}
+
+.header p{
+    color:#dbeafe;
+}
+
+/* Main Container */
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:30px auto;
+}
+
+/* Section */
+
+.section{
+    background:white;
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:12px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.12);
+}
+
+.section-title{
+    color:#1e3a8a;
+    margin-bottom:20px;
+    border-bottom:2px solid #2563eb;
+    padding-bottom:10px;
+}
+
+/* Help Boxes */
+
+.help-box{
+    background:#eef4ff;
+    border-left:5px solid #2563eb;
+    padding:18px;
+    margin-bottom:15px;
+    border-radius:8px;
+}
+
+.help-box h3{
+    color:#1e3a8a;
+    margin-bottom:8px;
+}
+
+.help-box p{
+    color:#555;
+    line-height:1.6;
+}
+
+/* University Information */
+
+.university-info{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.info-card{
+    background:#eef4ff;
+    padding:20px;
+    border-radius:10px;
+    border-top:5px solid #2563eb;
+}
+
+.info-card h3{
+    color:#1e3a8a;
+    margin-bottom:10px;
+}
+
+.info-card p{
+    color:#555;
+    line-height:1.7;
+}
+
+/* Contact Details */
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.contact-card{
+    background:#f8fafc;
+    padding:20px;
+    text-align:center;
+    border-radius:10px;
+    border:1px solid #dbeafe;
+}
+
+.contact-card h3{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.contact-card p{
+    color:#555;
+    line-height:1.6;
+}
+
+/* Contact Form */
+
+form{
+    display:grid;
+    gap:15px;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:13px;
+    border:1px solid #cbd5e1;
+    border-radius:7px;
+    font-size:15px;
+}
+
+textarea{
+    height:120px;
+    resize:vertical;
+}
+
+input:focus,
+textarea:focus{
+    outline:none;
+    border-color:#2563eb;
+}
+
+/* Buttons */
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:13px 25px;
+    border-radius:7px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#1e3a8a;
+}
+
+.button-area{
+    text-align:center;
+    margin-top:20px;
+}
+
+.website-button{
+    display:inline-block;
+    background:#1e3a8a;
+    color:white;
+    text-decoration:none;
+    padding:12px 22px;
+    border-radius:7px;
+    margin-top:15px;
+}
+
+.website-button:hover{
+    background:#2563eb;
+}
+
+/* Footer */
+
+footer{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+/* Mobile Design */
+
+@media(max-width:600px){
+
+    .container{
+        width:94%;
+    }
+
+    .header{
+        padding:25px 15px;
+    }
+
+    .section{
+        padding:18px;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- Header -->
+
+<div class="header">
+
+<h1>Student ERP Help Center</h1>
+
+<p>Find help, university information and support details</p>
+
+</div>
+
+<div class="container">
+
+<!-- Frequently Asked Questions -->
+
+<div class="section">
+
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<div class="help-box">
+
+<h3>How do I log in?</h3>
+
+<p>
+
+Enter your Student ID and password on the login page.
+Then click the Login button to open your Student ERP dashboard.
+
+</p>
+
+</div>
+
+<div class="help-box">
+
+<h3>How do I check my attendance?</h3>
+
+<p>
+
+After logging in, click the Attendance option from the sidebar.
+You can view your overall attendance and subject-wise attendance.
+
+</p>
+
+</div>
+
+<div class="help-box">
+
+<h3>How do I view my results?</h3>
+
+<p>
+
+Click the Results option from the sidebar.
+You can view your marks, grades, SPI, CGPA and result status.
+
+</p>
+
+</div>
+
+<div class="help-box">
+
+<h3>How do I view my timetable?</h3>
+
+<p>
+
+Click the Timetable option from the sidebar to view your
+weekly class schedule and classroom information.
+
+</p>
+
+</div>
+
+</div>
+
+<!-- University Information -->
+
+<div class="section">
+
+<h2 class="section-title">About CHARUSAT</h2>
+
+<div class="university-info">
+
+<div class="info-card">
+
+<h3>University Name</h3>
+
+<p>
+
+Charotar University of Science and Technology
+(CHARUSAT)
+
+</p>
+
+</div>
+
+<div class="info-card">
+
+<h3>University Campus</h3>
+
+<p>
+
+CHARUSAT Campus, Changa,
+Off. Nadiad-Petlad Highway,
+Gujarat – 388421, India
+
+</p>
+
+</div>
+
+<div class="info-card">
+
+<h3>University Information</h3>
+
+<p>
+
+CHARUSAT is a university that provides education
+in technology, engineering, science, management,
+pharmacy, healthcare and other fields.
+
+</p>
+
+</div>
+
+</div>
+
+<a class="website-button"
+href="https://www.charusat.ac.in/"
+target="_blank">
+
+Visit Official CHARUSAT Website
+
+</a>
+
+</div>
+
+<!-- Contact Information -->
+
+<div class="section">
+
+<h2 class="section-title">University Contact Information</h2>
+
+<div class="contact-grid">
+
+<div class="contact-card">
+
+<h3>Phone</h3>
+
+<p>
+
++91 2697 265011/21
+
+</p>
+
+</div>
+
+<div class="contact-card">
+
+<h3>Email</h3>
+
+<p>
+
+[info@charusat.ac.in](mailto:info@charusat.ac.in)
+
+</p>
+
+</div>
+
+<div class="contact-card">
+
+<h3>Office Hours</h3>
+
+<p>
+
+Monday to Saturday<br>
+
+9:00 AM – 4:30 PM
+
+</p>
+
+</div>
+
+<div class="contact-card">
+
+<h3>Location</h3>
+
+<p>
+
+CHARUSAT Campus,<br>
+
+Changa – 388421,<br>
+
+Gujarat, India
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Contact Support -->
+
+<div class="section">
+
+<h2 class="section-title">Contact ERP Support</h2>
+
+<form onsubmit="showMessage(event)">
+
+<input
+type="text"
+placeholder="Enter your name"
+required
+
+>
+
+<input
+type="email"
+placeholder="Enter your email"
+required
+
+>
+
+<input
+type="text"
+placeholder="Enter the subject"
+required
+
+>
+
+<textarea
+placeholder="Describe your problem"
+required
+></textarea>
+
+<button type="submit">
+
+Send Support Request
+
+</button>
+
+</form>
+
+<p id="message"
+style="text-align:center;
+color:green;
+font-weight:bold;
+margin-top:15px;">
+
+</p>
+
+</div>
+
+<!-- Back Button -->
+
+<div class="button-area">
+
+<button onclick="window.location.href='index.html'">
+
+Back to Login
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Footer -->
+
+<footer>
+
+<p>
+
+© 2026 Student ERP Portal | CHARUSAT University
+
+</p>
+
+</footer>
+
+<script>
+
+function showMessage(event){
+
+event.preventDefault();
+
+document.getElementById("message").innerHTML=
+
+"Your support request has been submitted successfully!";
+
+}
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student ERP - Timetable</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f6fb;
+}
+
+.container{
+    display:flex;
+}
+
+/* Sidebar */
+
+.sidebar{
+    width:220px;
+    height:100vh;
+    background:#1e3a8a;
+    position:fixed;
+    color:white;
+}
+
+.sidebar h2{
+    text-align:center;
+    padding:20px;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar ul li a{
+    display:block;
+    padding:15px 25px;
+    color:white;
+    text-decoration:none;
+}
+
+.sidebar ul li a:hover{
+    background:#2563eb;
+}
+
+/* Main */
+
+.main{
+    margin-left:220px;
+    padding:30px;
+    width:100%;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.header h1{
+    color:#1e3a8a;
+}
+
+.student{
+    font-weight:bold;
+}
+
+/* Table */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+
+th{
+    background:#2563eb;
+    color:white;
+    padding:12px;
+}
+
+td{
+    padding:15px;
+    text-align:center;
+    border:1px solid #ddd;
+}
+
+tr:hover{
+    background:#eef4ff;
+}
+
+.break{
+    background:#fff3cd;
+    font-weight:bold;
+    color:#856404;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="sidebar">
+
+<h2>Student ERP</h2>
+
+<ul>
+
+<li><a href="dashboard.html">Dashboard</a></li>
+
+<li><a href="profile.html">Profile</a></li>
+
+<li><a href="attendance.html">Attendance</a></li>
+
+<li><a href="subjects.html">Subjects</a></li>
+
+<li><a href="results.html">Results</a></li>
+
+<li><a href="timetable.html" style="background:#2563eb;">Timetable</a></li>
+
+<li><a href="notices.html">Notices</a></li>
+
+<li><a href="settings.html">Settings</a></li>
+
+</ul>
+
+</div>
+
+<div class="main">
+
+<div class="header">
+
+<h1>Weekly Timetable</h1>
+
+<div class="student">
+
+Krupal Parmar | 25CS057
+
+</div>
+
+</div>
+
+<table>
+
+<tr>
+
+<th>Time</th>
+
+<th>Monday</th>
+
+<th>Tuesday</th>
+
+<th>Wednesday</th>
+
+<th>Thursday</th>
+
+<th>Friday</th>
+
+</tr>
+
+<tr>
+
+<td>9:00 - 10:00</td>
+
+<td>ITUE101<br>Room A-204</td>
+
+<td>CSUS203<br>Room B-301</td>
+
+<td>ITUC102<br>Lab C-105</td>
+
+<td>MSUD203<br>Room A-110</td>
+
+<td>CEUC203<br>Room D-205</td>
+
+</tr>
+
+<tr>
+
+<td>10:00 - 11:00</td>
+
+<td>CSUS203<br>Room B-301</td>
+
+<td>ITUC102<br>Lab C-105</td>
+
+<td>MSUD203<br>Room A-110</td>
+
+<td>CEUC203<br>Room D-205</td>
+
+<td>ITUE101<br>Room A-204</td>
+
+</tr>
+
+<tr>
+
+<td>11:00 - 12:00</td>
+
+<td>ITUC102<br>Lab C-105</td>
+
+<td>MSUD203<br>Room A-110</td>
+
+<td>CEUC203<br>Room D-205</td>
+
+<td>ITUE101<br>Room A-204</td>
+
+<td>CSUS203<br>Room B-301</td>
+
+</tr>
+<tr class="break">
+
+<td>12:00 - 1:00</td>
+
+<td colspan="5">🍽️ LUNCH BREAK</td>
+
+</tr>
+
+<tr>
+
+<td>1:00 - 2:00</td>
+
+<td>MSUD203<br>Room A-110</td>
+
+<td>CEUC203<br>Room D-205</td>
+
+<td>ITUE101<br>Room A-204</td>
+
+<td>CSUS203<br>Room B-301</td>
+
+<td>ITUC102<br>Lab C-105</td>
+
+</tr>
+
+<tr>
+
+<td>2:00 - 3:00</td>
+
+<td>CEUC203<br>Room D-205</td>
+
+<td>ITUE101<br>Room A-204</td>
+
+<td>CSUS203<br>Room B-301</td>
+
+<td>ITUC102<br>Lab C-105</td>
+
+<td>MSUD203<br>Room A-110</td>
+
+</tr>
+
+</table>
+
+<div style="margin-top:30px;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,.15);">
+
+<h2 style="color:#2563eb;margin-bottom:15px;">
+
+📌 Timetable Notes
+
+</h2>
+
+<ul style="margin-left:20px;line-height:2;">
+
+<li>Students must reach class at least 10 minutes before the lecture.</li>
+
+<li>Attendance is compulsory for all theory and practical sessions.</li>
+
+<li>Carry your ID card every day.</li>
+
+<li>Lab sessions require the laboratory record and necessary materials.</li>
+
+<li>Check the ERP portal regularly for timetable updates.</li>
+
+</ul>
+
+</div>
+
+<footer style="margin-top:30px;
+text-align:center;
+color:#666;
+padding:20px;">
+
+© 2026 Student ERP Portal | CHARUSAT University
+
+</footer>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

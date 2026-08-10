@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Profile</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#eef3ff;
+}
+
+.container{
+    display:flex;
+}
+
+/* Sidebar */
+
+.sidebar{
+    width:250px;
+    height:100vh;
+    background:#1e3a8a;
+    color:white;
+    position:fixed;
+}
+
+.sidebar h2{
+    text-align:center;
+    padding:25px;
+    border-bottom:1px solid rgba(255,255,255,.2);
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar ul li{
+    padding:18px 25px;
+    transition:.3s;
+}
+
+.sidebar ul li:hover{
+    background:#2563eb;
+}
+
+.sidebar ul li a{
+    color:white;
+    text-decoration:none;
+    display:block;
+}
+
+/* Main Content */
+
+.main{
+    margin-left:250px;
+    width:100%;
+    padding:35px;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.logout{
+    padding:10px 18px;
+    border:none;
+    background:#ef4444;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.logout:hover{
+    background:#dc2626;
+}
+
+/* Profile Card */
+
+.profile-card{
+    background:white;
+    border-radius:18px;
+    padding:30px;
+    display:flex;
+    align-items:center;
+    gap:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+.avatar{
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    background:#2563eb;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:60px;
+}
+
+.profile-info h2{
+    color:#1e3a8a;
+    margin-bottom:10px;
+}
+
+.profile-info p{
+    margin:8px 0;
+    color:#555;
+}
+
+/* Information Cards */
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:25px;
+    margin-top:30px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+}
+
+.card h3{
+    color:#2563eb;
+    margin-bottom:20px;
+    border-bottom:2px solid #2563eb;
+    padding-bottom:10px;
+}
+
+.info-row{
+    display:flex;
+    justify-content:space-between;
+    margin:12px 0;
+}
+
+.info-row span:first-child{
+    font-weight:600;
+}
+
+.skills{
+    margin-top:15px;
+}
+
+.skill{
+    margin-bottom:18px;
+}
+
+.skill-title{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:6px;
+}
+
+.progress{
+    height:10px;
+    background:#ddd;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.bar{
+    height:100%;
+    background:#2563eb;
+}
+
+/* ===== HTML STARTS ===== */
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="sidebar">
+
+<h2>Student Portal</h2>
+
+<ul>
+<li><a href="dashboard.html">🏠 Dashboard</a></li>
+<li><a href="profile.html">👤 Profile</a></li>
+<li><a href="attendance.html">📅 Attendance</a></li>
+<li><a href="subjects.html">📚 Subjects</a></li>
+<li><a href="results.html">📊 Results</a></li>
+<li><a href="timetable.html">🕒 Timetable</a></li>
+<li><a href="notices.html">📢 Notices</a></li>
+<li><a href="settings.html">⚙ Settings</a></li>
+</ul>
+
+</div>
+
+<div class="main">
+
+<div class="header">
+
+<h1>Student Profile</h1>
+
+<button class="logout">Logout</button>
+
+</div>
+
+<div class="profile-card">
+
+<div class="avatar">
+👨‍🎓
+</div>
+
+<div class="profile-info">
+
+<h2>Krupal Parmar</h2>
+
+<p><strong>Student ID :</strong> 25CS057</p>
+
+<p><strong>Department :</strong> Computer Science Engineering</p>
+
+<p><strong>Semester :</strong> Semester 3</p>
+
+<p><strong>Career Goal :</strong> Cyber Security Specialist</p>
+
+</div>
+
+</div>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>Personal Information</h3>
+
+<div class="info-row">
+<span>Full Name</span>
+<span>Krupal Parmar</span>
+</div>
+
+<div class="info-row">
+<span>Gender</span>
+<span>Male</span>
+</div>
+
+<div class="info-row">
+<span>Date of Birth</span>
+<span>21-01-2008</span>
+</div>
+
+<div class="info-row">
+<span>Blood Group</span>
+<span>O+</span>
+</div>
+
+<div class="info-row">
+<span>Student ID</span>
+<span>25CS057</span>
+</div>
+
+</div>
+
+<div class="card">
+
+<h3>Academic Details</h3>
+
+<div class="info-row">
+<span>University</span>
+<span>CHARUSAT</span>
+</div>
+
+<div class="info-row">
+<span>Course</span>
+<span>B.Tech</span>
+</div>
+
+<div class="info-row">
+<span>Branch</span>
+<span>CSE</span>
+</div>
+
+<div class="info-row">
+<span>Semester</span>
+<span>3</span>
+</div>
+
+<div class="info-row">
+<span>CGPA</span>
+<span>8.50</span>
+</div>
+
+</div>
+
+<div class="card">
+
+<h3>Skills</h3>
+
+<div class="skills">
+
+<div class="skill">
+<div class="skill-title">
+<span>HTML</span>
+<span>90%</span>
+</div>
+<div class="progress">
+<div class="bar" style="width:90%"></div>
+</div>
+</div>
+
+<div class="skill">
+<div class="skill-title">
+<span>CSS</span>
+<span>85%</span>
+</div>
+<div class="progress">
+<div class="bar" style="width:85%"></div>
+</div>
+</div>
+
+<div class="skill">
+<div class="skill-title">
+<span>Java</span>
+<span>70%</span>
+</div>
+<div class="progress">
+<div class="bar" style="width:70%"></div>
+</div>
+</div>
+
+</div>
+
+</div>

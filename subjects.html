@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Subjects</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f6fb;
+}
+
+.container{
+    display:flex;
+}
+
+/* Sidebar */
+
+.sidebar{
+    width:220px;
+    height:100vh;
+    background:#1e3a8a;
+    position:fixed;
+    color:white;
+}
+
+.sidebar h2{
+    text-align:center;
+    padding:20px;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar ul li a{
+    display:block;
+    padding:15px 25px;
+    color:white;
+    text-decoration:none;
+}
+
+.sidebar ul li a:hover{
+    background:#2563eb;
+}
+
+/* Main */
+
+.main{
+    margin-left:220px;
+    padding:30px;
+    width:100%;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.header h1{
+    color:#1e3a8a;
+}
+
+.student{
+    font-weight:bold;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h2{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.code{
+    color:#666;
+    margin-bottom:10px;
+}
+
+.info{
+    margin:8px 0;
+}
+
+.credit{
+    display:inline-block;
+    margin-top:15px;
+    background:#2563eb;
+    color:white;
+    padding:8px 15px;
+    border-radius:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="sidebar">
+
+<h2>Student ERP</h2>
+
+<ul>
+
+<li><a href="dashboard.html">Dashboard</a></li>
+
+<li><a href="profile.html">Profile</a></li>
+
+<li><a href="attendance.html">Attendance</a></li>
+
+<li><a href="subjects.html" style="background:#2563eb;">Subjects</a></li>
+
+<li><a href="results.html">Results</a></li>
+
+<li><a href="timetable.html">Timetable</a></li>
+
+<li><a href="notices.html">Notices</a></li>
+
+<li><a href="settings.html">Settings</a></li>
+
+</ul>
+
+</div>
+
+<div class="main">
+
+<div class="header">
+
+<h1>My Subjects</h1>
+
+<div class="student">
+
+Krupal Parmar | 25CS057
+
+</div>
+
+</div>
+
+<div class="grid">
+
+<!-- Subject 1 -->
+
+<div class="card">
+
+<h2>Introduction to Engineering</h2>
+
+<div class="code">
+
+Code : ITUE101
+
+</div>
+
+<div class="info">
+
+Faculty : Dr. A. Patel
+
+</div>
+
+<div class="info">
+
+Classroom : A-204
+
+</div>
+
+<div class="info">
+
+Description : Basics of engineering principles and professional ethics.
+
+</div>
+
+<div class="credit">
+
+Credits : 4
+
+</div>
+
+</div>
+
+<!-- Subject 2 -->
+
+<div class="card">
+
+<h2>Data Structures</h2>
+
+<div class="code">
+
+Code : CSUS203
+
+</div>
+
+<div class="info">
+
+Faculty : Prof. R. Shah
+
+</div>
+
+<div class="info">
+
+Classroom : B-301
+
+</div>
+
+<div class="info">
+
+Description : Arrays, linked lists, stacks, queues and trees.
+
+</div>
+
+<div class="credit">
+
+Credits : 4
+
+</div>
+
+</div><!-- Subject 3 -->
+
+<div class="card">
+
+    <h2>Programming Fundamentals</h2>
+
+    <div class="code">
+        Code : ITUC102
+    </div>
+
+    <div class="info">
+        Faculty : Prof. M. Desai
+    </div>
+
+    <div class="info">
+        Classroom : C-105
+    </div>
+
+    <div class="info">
+        Description : Introduction to programming concepts using C and problem solving.
+    </div>
+
+    <div class="credit">
+        Credits : 3
+    </div>
+
+</div>
+
+<!-- Subject 4 -->
+
+<div class="card">
+
+    <h2>Engineering Mathematics</h2>
+
+    <div class="code">
+        Code : MSUD203
+    </div>
+
+    <div class="info">
+        Faculty : Dr. S. Mehta
+    </div>
+
+    <div class="info">
+        Classroom : A-110
+    </div>
+
+    <div class="info">
+        Description : Calculus, matrices, differential equations and applications.
+    </div>
+
+    <div class="credit">
+        Credits : 4
+    </div>
+
+</div>
+
+<!-- Subject 5 -->
+
+<div class="card">
+
+    <h2>Professional Communication</h2>
+
+    <div class="code">
+        Code : CEUC203
+    </div>
+
+    <div class="info">
+        Faculty : Prof. N. Patel
+    </div>
+
+    <div class="info">
+        Classroom : D-205
+    </div>
+
+    <div class="info">
+        Description : English communication, presentations and professional writing.
+    </div>
+
+    <div class="credit">
+        Credits : 2
+    </div>
+
+</div>
+
+</div>
+
+<footer style="margin-top:35px;text-align:center;color:#666;">
+
+    © 2026 Student ERP Portal | CHARUSAT University
+
+</footer>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

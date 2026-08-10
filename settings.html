@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student ERP - Settings</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4f6fb;
+}
+
+.container{
+display:flex;
+}
+
+.sidebar{
+width:220px;
+height:100vh;
+background:#1e3a8a;
+position:fixed;
+color:white;
+}
+
+.sidebar h2{
+text-align:center;
+padding:20px;
+}
+
+.sidebar ul{
+list-style:none;
+}
+
+.sidebar ul li a{
+display:block;
+padding:15px 25px;
+color:white;
+text-decoration:none;
+}
+
+.sidebar ul li a:hover{
+background:#2563eb;
+}
+
+.main{
+margin-left:220px;
+padding:30px;
+width:100%;
+}
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:25px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,.15);
+margin-bottom:20px;
+}
+
+.card h2{
+color:#2563eb;
+margin-bottom:15px;
+}
+
+.setting-row{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:12px 0;
+border-bottom:1px solid #eee;
+}
+
+.setting-row:last-child{
+border-bottom:none;
+}
+
+button{
+background:#2563eb;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1d4ed8;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="sidebar">
+
+<h2>Student ERP</h2>
+
+<ul>
+
+<li><a href="dashboard.html">Dashboard</a></li>
+<li><a href="profile.html">Profile</a></li>
+<li><a href="attendance.html">Attendance</a></li>
+<li><a href="subjects.html">Subjects</a></li>
+<li><a href="results.html">Results</a></li>
+<li><a href="timetable.html">Timetable</a></li>
+<li><a href="notices.html">Notices</a></li>
+<li><a href="settings.html" style="background:#2563eb;">Settings</a></li>
+
+</ul>
+
+</div>
+
+<div class="main">
+
+<div class="header">
+
+<h1>Settings</h1>
+
+<b>Krupal Parmar | 25CS057</b>
+
+</div>
+
+<div class="card">
+
+<h2>Account Settings</h2>
+
+<div class="setting-row">
+
+<span>Change Password</span>
+
+<button>Update</button>
+
+</div>
+
+<div class="setting-row">
+
+<span>Update Email</span>
+
+<button>Edit</button>
+
+</div>
+
+<div class="setting-row">
+
+<span>Update Phone Number</span>
+
+<button>Edit</button>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>Preferences</h2>
+
+<div class="setting-row">
+
+<span>Email Notifications</span>
+
+<button>Enabled</button>
+
+</div>
+
+<div class="setting-row">
+
+<span>SMS Notifications</span>
+
+<button>Enabled</button>
+
+</div>
+</div>
+
+<!-- Privacy Settings -->
+
+<div class="card">
+
+<h2>Privacy Settings</h2>
+
+<div class="setting-row">
+
+<span>Profile Visibility</span>
+
+<button>Public</button>
+
+</div>
+
+<div class="setting-row">
+
+<span>Two-Factor Authentication</span>
+
+<button>Disabled</button>
+
+</div>
+
+</div>
+
+<!-- Language -->
+
+<div class="card">
+
+<h2>Language</h2>
+
+<div class="setting-row">
+
+<span>Portal Language</span>
+
+<button>English</button>
+
+</div>
+
+</div>
+
+<!-- Logout -->
+
+<div class="card">
+
+<h2>Account</h2>
+
+<div class="setting-row">
+
+<span>Logout from Student ERP</span>
+
+<button onclick="window.location.href='index.html'">
+Logout
+</button>
+
+</div>
+
+</div>
+
+<footer style="
+margin-top:30px;
+text-align:center;
+padding:20px;
+color:#666;
+">
+
+© 2026 Student ERP Portal | CHARUSAT University
+
+</footer>
+
+</div>
+
+</div>
+
+</body>
+</html>
