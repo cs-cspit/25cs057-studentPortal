@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "question": "What is Fetch API?",
+        "answer": "Fetch API is used to request resources from a server.",
+        "category": "JavaScript"
+    },
+    {
+        "id": 2,
+        "question": "What is JSON?",
+        "answer": "JSON is a lightweight format for storing and exchanging data.",
+        "category": "JSON"
+    },
+    {
+        "id": 3,
+        "question": "What does map() do?",
+        "answer": "map() creates a new array by applying a function to each element.",
+        "category": "Arrays"
+    },
+    {
+        "id": 4,
+        "question": "What does filter() do?",
+        "answer": "filter() creates a new array containing elements that satisfy a condition.",
+        "category": "Arrays"
+    },
+    {
+        "id": 5,
+        "question": "What does sort() do?",
+        "answer": "sort() arranges elements of an array.",
+        "category": "Arrays"
+    },
+    {
+        "id": 6,
+        "question": "What does slice() do?",
+        "answer": "slice() returns a selected portion of an array.",
+        "category": "Arrays"
+    },
+    {
+        "id": 7,
+        "question": "What is async?",
+        "answer": "async allows a function to work with asynchronous operations.",
+        "category": "JavaScript"
+    },
+    {
+        "id": 8,
+        "question": "What is await?",
+        "answer": "await waits for a Promise to complete.",
+        "category": "JavaScript"
+    },
+    {
+        "id": 9,
+        "question": "What is an API?",
+        "answer": "An API allows different software applications to communicate.",
+        "category": "Web"
+    },
+    {
+        "id": 10,
+        "question": "Why is JSON used?",
+        "answer": "JSON is commonly used to exchange structured data.",
+        "category": "JSON"
+    },
+    {
+        "id": 11,
+        "question": "What is pagination?",
+        "answer": "Pagination divides a large set of records into smaller pages.",
+        "category": "Web"
+    },
+    {
+        "id": 12,
+        "question": "What is dynamic rendering?",
+        "answer": "Dynamic rendering creates webpage content using data and JavaScript.",
+        "category": "JavaScript"
+    },
+    {
+        "id": 13,
+        "question": "What is error handling?",
+        "answer": "Error handling manages unexpected problems during program execution.",
+        "category": "JavaScript"
+    },
+    {
+        "id": 14,
+        "question": "What is localStorage?",
+        "answer": "localStorage stores data in the browser.",
+        "category": "Web"
+    },
+    {
+        "id": 15,
+        "question": "What is modular JavaScript?",
+        "answer": "Modular JavaScript divides code into separate reusable files.",
+        "category": "JavaScript"
+    }
+]

@@ -1,0 +1,26 @@
+# Security hardening for uploaded event posters directory
+# Prevent PHP and other script execution within the upload directory
+
+# Disable script execution engines if available
+<IfModule mod_php.c>
+    php_flag engine off
+</IfModule>
+<IfModule mod_php7.c>
+    php_flag engine off
+</IfModule>
+<IfModule mod_php8.c>
+    php_flag engine off
+</IfModule>
+
+# Deny access to any executable scripts or hidden files
+<FilesMatch "(?i)\.(php|phtml|php3|php4|php5|php7|php8|phps|phar|exe|pl|py|cgi|sh|bash|bat|cmd|js|html|htm|htaccess)$">
+    Require all denied
+</FilesMatch>
+
+# Allow only safe image types
+<FilesMatch "(?i)\.(jpg|jpeg|png|webp|gif|svg)$">
+    Require all granted
+</FilesMatch>
+
+# Turn off options including Indexes (prevent directory listing) and ExecCGI
+Options -Indexes -ExecCGI

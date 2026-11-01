@@ -1,0 +1,122 @@
+[
+    {
+        "id": "25CS001",
+        "name": "Aarav Patel",
+        "course": "CSE",
+        "year": 3,
+        "city": "Ahmedabad",
+        "gender": "Male"
+    },
+    {
+        "id": "25CS002",
+        "name": "Diya Shah",
+        "course": "CSE",
+        "year": 3,
+        "city": "Vadodara",
+        "gender": "Female"
+    },
+    {
+        "id": "25CS003",
+        "name": "Krupal Parmar",
+        "course": "CSE",
+        "year": 3,
+        "city": "Petlad",
+        "gender": "Male"
+    },
+    {
+        "id": "25CS004",
+        "name": "Riya Patel",
+        "course": "IT",
+        "year": 2,
+        "city": "Anand",
+        "gender": "Female"
+    },
+    {
+        "id": "25CS005",
+        "name": "Rahul Mehta",
+        "course": "CSE",
+        "year": 3,
+        "city": "Surat",
+        "gender": "Male"
+    },
+    {
+        "id": "25CS006",
+        "name": "Neha Joshi",
+        "course": "IT",
+        "year": 2,
+        "city": "Rajkot",
+        "gender": "Female"
+    },
+    {
+        "id": "25CS007",
+        "name": "Harsh Patel",
+        "course": "ECE",
+        "year": 3,
+        "city": "Ahmedabad",
+        "gender": "Male"
+    },
+    {
+        "id": "25CS008",
+        "name": "Meera Shah",
+        "course": "CSE",
+        "year": 2,
+        "city": "Vadodara",
+        "gender": "Female"
+    },
+    {
+        "id": "25CS009",
+        "name": "Dev Desai",
+        "course": "ECE",
+        "year": 3,
+        "city": "Anand",
+        "gender": "Male"
+    },
+    {
+        "id": "25CS010",
+        "name": "Kavya Patel",
+        "course": "IT",
+        "year": 2,
+        "city": "Surat",
+        "gender": "Female"
+    },
+    {
+        "id": "25CS011",
+        "name": "Yash Shah",
+        "course": "CSE",
+        "year": 3,
+        "city": "Rajkot",
+        "gender": "Male"
+    },
+    {
+        "id": "25CS012",
+        "name": "Ananya Mehta",
+        "course": "IT",
+        "year": 2,
+        "city": "Ahmedabad",
+        "gender": "Female"
+    },
+    {
+        "id": "25CS013",
+        "name": "Dhruv Patel",
+        "course": "ECE",
+        "year": 3,
+        "city": "Vadodara",
+        "gender": "Male"
+    },
+    {
+        "id": "25CS014",
+        "name": "Isha Desai",
+        "course": "CSE",
+        "year": 2,
+        "city": "Anand",
+        "gender": "Female"
+    },
+    {
+        "id": "25CS015",
+        "name": "Manav Joshi",
+        "course": "IT",
+        "year": 3,
+        "city": "Surat",
+        "gender": "Male"
+    }
+]

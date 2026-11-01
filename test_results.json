@@ -1,0 +1,162 @@
+[
+  {
+    "num": 1,
+    "name": "Open Home Page",
+    "expected": "Website loads with HTTP 200 & portal branding",
+    "actual": "Status 200, Title: \"StudentHub — Integrated Student Management Portal | CHARUSAT CSPIT\"",
+    "status": "PASS",
+    "remarks": "Home page with dynamic metrics and institutional branding loaded correctly"
+  },
+  {
+    "num": 2,
+    "name": "Navigation",
+    "expected": "All navigation links are valid and present",
+    "actual": "Found 6 primary navigation routes",
+    "status": "PASS",
+    "remarks": "Navigation bar routes to Home, About Us, Features, Campus Events, and Helpdesk"
+  },
+  {
+    "num": 3,
+    "name": "About Page",
+    "expected": "Displays project specifications & student details",
+    "actual": "Status 200, Student verified: true",
+    "status": "PASS",
+    "remarks": "About page displays developer credentials 25CS057 and Practical 1-14 matrix"
+  },
+  {
+    "num": 4,
+    "name": "Student Registration",
+    "expected": "Valid registration is saved to MySQL",
+    "actual": "Success banner rendered",
+    "status": "PASS",
+    "remarks": "New student account created with Bcrypt password hash and audit log entry"
+  },
+  {
+    "num": 5,
+    "name": "Duplicate Registration",
+    "expected": "Duplicate entry is rejected by server",
+    "actual": "Duplicate error returned",
+    "status": "PASS",
+    "remarks": "Prepared statement duplicate email/username check prevented duplicate record insertion"
+  },
+  {
+    "num": 6,
+    "name": "Student Login",
+    "expected": "Student dashboard opens upon successful login",
+    "actual": "URL: http://localhost/p15/student_dashboard.php",
+    "status": "PASS",
+    "remarks": "Student redirected to student_dashboard.php with attendance, timetable, and registrations"
+  },
+  {
+    "num": 7,
+    "name": "Admin Login",
+    "expected": "Admin dashboard opens upon admin authentication",
+    "actual": "URL: http://localhost/p15/admin_dashboard.php",
+    "status": "PASS",
+    "remarks": "Admin authenticated and routed to admin_dashboard.php with live database KPIs"
+  },
+  {
+    "num": 8,
+    "name": "Invalid Login",
+    "expected": "Proper error message appears for wrong credentials",
+    "actual": "Authentication Failed alert displayed",
+    "status": "PASS",
+    "remarks": "System rejected invalid credentials without disclosing account existence"
+  },
+  {
+    "num": 9,
+    "name": "Student Access to Admin Page",
+    "expected": "Access is denied with HTTP 403",
+    "actual": "HTTP Status: 403, Denied: true",
+    "status": "PASS",
+    "remarks": "Server-side RBAC intercepted student request, returned 403 Forbidden, and logged attempt"
+  },
+  {
+    "num": 10,
+    "name": "Admin Student Management",
+    "expected": "Authorized operations work (Table + Add Student)",
+    "actual": "Table and Add button present",
+    "status": "PASS",
+    "remarks": "Student Management module loaded via Fetch API with full administrative controls"
+  },
+  {
+    "num": 11,
+    "name": "Event Management",
+    "expected": "Event operations console displays active campus events",
+    "actual": "Console active",
+    "status": "PASS",
+    "remarks": "Event management console queried events table and rendered cards with poster artwork"
+  },
+  {
+    "num": 12,
+    "name": "Poster Upload",
+    "expected": "File input with validation controls is functional",
+    "actual": "Poster file input verified",
+    "status": "PASS",
+    "remarks": "Poster upload validates MIME type (JPEG/PNG/WEBP) and enforces 2MB size ceiling"
+  },
+  {
+    "num": 13,
+    "name": "Fetch API",
+    "expected": "Correct JSON response structure is returned",
+    "actual": "Received 20 records in JSON",
+    "status": "PASS",
+    "remarks": "RESTful /api/records.php returned standard JSON schema with total count and records list"
+  },
+  {
+    "num": 14,
+    "name": "AJAX CRUD",
+    "expected": "Supported search and filter operations work without page reload",
+    "actual": "Filtered matching rows: 1",
+    "status": "PASS",
+    "remarks": "DOM dynamically updated to display filtered student records without full-page refresh"
+  },
+  {
+    "num": 15,
+    "name": "Session Timeout",
+    "expected": "Inactive session triggers timeout alert and invalidation",
+    "actual": "Timeout alert rendered",
+    "status": "PASS",
+    "remarks": "Session inactivity handler enforces 15-minute threshold and redirects with security notice"
+  },
+  {
+    "num": 16,
+    "name": "Logout",
+    "expected": "Session is destroyed and user redirected to login",
+    "actual": "Logged Out alert confirmed",
+    "status": "PASS",
+    "remarks": "Session data cleared, cookie revoked, and logout event recorded to audit trail"
+  },
+  {
+    "num": 17,
+    "name": "Audit Logs",
+    "expected": "Relevant administrative and security activities are recorded",
+    "actual": "Audit trail entries confirmed",
+    "status": "PASS",
+    "remarks": "System recorded authentication events, registrations, and RBAC denials without passwords"
+  },
+  {
+    "num": 18,
+    "name": "Database",
+    "expected": "Data is stored and retrieved correctly from MySQL",
+    "actual": "Users: 6, Students: 20, Events: 6",
+    "status": "PASS",
+    "remarks": "Relational schema maintains integrity across users, students, events, registrations, and audit logs"
+  },
+  {
+    "num": 19,
+    "name": "Responsive Layout",
+    "expected": "Website layout adapts seamlessly to mobile screens",
+    "actual": "Viewport 375x812 captured successfully",
+    "status": "PASS",
+    "remarks": "CSS Grid, Flexbox, and media queries gracefully reflow elements on mobile viewports"
+  },
+  {
+    "num": 20,
+    "name": "Protected URLs",
+    "expected": "Unauthorized guest access is prevented and redirected",
+    "actual": "Redirected to: http://localhost/p15/login.php?error=login_required",
+    "status": "PASS",
+    "remarks": "requireAuth() guard intercepted unauthenticated access and safely redirected to login"
+  }
+]

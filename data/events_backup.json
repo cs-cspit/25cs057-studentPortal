@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "title": "Tech Fest",
+        "date": "2026-10-10",
+        "venue": "Main Auditorium",
+        "category": "Technical",
+        "description": "Annual technical festival."
+    },
+    {
+        "id": 2,
+        "title": "Cricket Tournament",
+        "date": "2026-10-12",
+        "venue": "University Ground",
+        "category": "Sports",
+        "description": "Inter-college cricket tournament."
+    },
+    {
+        "id": 3,
+        "title": "Coding Competition",
+        "date": "2026-10-15",
+        "venue": "Computer Lab",
+        "category": "Technical",
+        "description": "Competitive programming event."
+    },
+    {
+        "id": 4,
+        "title": "Cultural Night",
+        "date": "2026-10-18",
+        "venue": "Open Air Theatre",
+        "category": "Cultural",
+        "description": "Cultural performances by students."
+    },
+    {
+        "id": 5,
+        "title": "Web Development Workshop",
+        "date": "2026-10-20",
+        "venue": "Lab 1",
+        "category": "Workshop",
+        "description": "Workshop on modern web development."
+    },
+    {
+        "id": 6,
+        "title": "Football Tournament",
+        "date": "2026-10-22",
+        "venue": "Sports Ground",
+        "category": "Sports",
+        "description": "Inter-department football tournament."
+    },
+    {
+        "id": 7,
+        "title": "AI Seminar",
+        "date": "2026-10-25",
+        "venue": "Seminar Hall",
+        "category": "Technical",
+        "description": "Seminar about artificial intelligence."
+    },
+    {
+        "id": 8,
+        "title": "Dance Competition",
+        "date": "2026-10-27",
+        "venue": "Auditorium",
+        "category": "Cultural",
+        "description": "Inter-college dance competition."
+    },
+    {
+        "id": 9,
+        "title": "Cyber Security Workshop",
+        "date": "2026-10-29",
+        "venue": "Computer Lab",
+        "category": "Workshop",
+        "description": "Introduction to cyber security."
+    },
+    {
+        "id": 10,
+        "title": "Hackathon",
+        "date": "2026-11-01",
+        "venue": "Innovation Center",
+        "category": "Technical",
+        "description": "24-hour software development challenge."
+    },
+    {
+        "id": 11,
+        "title": "Basketball Tournament",
+        "date": "2026-11-03",
+        "venue": "Sports Complex",
+        "category": "Sports",
+        "description": "University basketball competition."
+    },
+    {
+        "id": 12,
+        "title": "Photography Contest",
+        "date": "2026-11-05",
+        "venue": "Main Hall",
+        "category": "Cultural",
+        "description": "Photography contest for students."
+    },
+    {
+        "id": 13,
+        "title": "Java Workshop",
+        "date": "2026-11-08",
+        "venue": "Computer Lab 2",
+        "category": "Workshop",
+        "description": "Core Java programming workshop."
+    },
+    {
+        "id": 14,
+        "title": "Robotics Exhibition",
+        "date": "2026-11-10",
+        "venue": "Innovation Center",
+        "category": "Technical",
+        "description": "Student robotics project exhibition."
+    },
+    {
+        "id": 15,
+        "title": "Annual Sports Day",
+        "date": "2026-11-12",
+        "venue": "University Ground",
+        "category": "Sports",
+        "description": "Annual sports day celebration."
+    }
+]
